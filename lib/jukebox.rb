@@ -64,21 +64,23 @@ end
 # run(array)
 # end
 
-def run(array)
-  puts "Please enter a command:"
-  input = gets.strip
-  while input != "exit" do 
-   if input == "help"
-      return help
-   elsif input == "list"
-      list(array)
-    elsif input == "play"
-      play(array)
-  end 
- end
-  if input == "exit"
-      return exit_jukebox
-  end
-end
+# def run(array)
+#   puts "Please enter a command:"
+#   input = gets.strip
+#   while input != "exit" do 
+#   if input == "help"
+#       return help
+#   elsif input == "list"
+#       list(array)
+#     elsif input == "play"
+#       play(array)
+#   end
+#   puts "Please enter a command:"
+#   input = gets.strip
+# end
+#   if input == "exit"
+#       return exit_jukebox
+#   end
+# end
 
 run(songs)
