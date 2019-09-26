@@ -69,8 +69,8 @@ def run(array)
   input = gets.strip
   while input != "exit" do 
    if input == "help"
-      help
-    elsif input == "list"
+      return help
+   elsif input == "list"
       list(array)
     elsif input == "play"
       play(array)
